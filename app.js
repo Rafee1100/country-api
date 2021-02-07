@@ -12,6 +12,9 @@ const displayCountries = countries => {
         const countryInfo = `
         <h3 class='country-name'>${country.name}</h3>
         <p>${country.capital}</p>
+        <img src="${country.flag}" width='50px' height='50px'>
+        <br><br>
+        <button> Details</button>
         `
         countryDiv.innerHTML = countryInfo
     
